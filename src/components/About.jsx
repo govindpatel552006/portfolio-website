@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboutImg from "../assets/projects/aboutpic.jpg";
-import { ABOUT_TEXT } from "../constants/index.js";
+import { ABOUT_TEXT,ABOUT_TEXT1} from "../constants/index.js";
 
-const About = () => {
+const About = ({Resumebtn}) => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -44,7 +44,14 @@ const About = () => {
             viewport={{ once: true }}
             className="flex justify-center lg:justify-start mt-16"
           >
-            <p>{ABOUT_TEXT}</p>
+            <p>{ABOUT_TEXT}
+              <br /><br />
+              <p>{ABOUT_TEXT1}
+                <br />
+                <br />
+                {<Resumebtn/>}
+              </p>
+            </p>
           </motion.div>
         </div>
 

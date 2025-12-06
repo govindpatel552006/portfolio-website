@@ -5,6 +5,7 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
         <div className="container mx-auto px-8">
           <Navbar />
           <Hero />
-         <About/>
+         <About Resumebtn={Resume}/>
          <Technologies/>
          <Projects/>
          <Contact/>

@@ -4,10 +4,10 @@ import project3 from "../assets/projects/project3.jpeg";
  
 
 
-export  const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications, I have honed my skills in front-end technologies like React,HTML,css,JavaScript , as well as back-end technologies like Node.js, Express.js, MySQL and MongoDB . My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export  const HERO_CONTENT = "I am a passionate MERN Stack Developer with a strong ability to build robust, scalable, and user-centric web applications. I specialize in front-end technologies like React, HTML, CSS, and JavaScript, and back-end development using Node.js, Express.js, and MongoDB. With a focus on clean architecture and performance, my goal is to create innovative solutions that enhance user experience and support business growth."
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. , I have worked with a variety of technologies, including React,  Node.js, MySQL, and MongoDB,version control system (Git and GitHub). My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
+export const ABOUT_TEXT = "I am a dedicated and versatile Full Stack MERN Developer with a strong passion for building efficient, scalable, and user-friendly web applications. Over time, I have gained hands-on experience with technologies such as React, Node.js, Express.js, MongoDB, MySQL, and version control systems like Git and GitHub. What began as a simple curiosity about how digital systems work has grown into a career where I constantly learn, evolve, and take on new challenges with enthusiasm."
+export const ABOUT_TEXT1="I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality, impactful solutions. Beyond coding, I stay active, explore new and emerging technologies, and contribute to open-source projects whenever possible. My goal is to continuously refine my skills while creating meaningful products that improve user experiences and support business growth."
 export const EXPERIENCES = [
 
 
