@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandMongodb } from "react-icons/tb";
-import { FaNodeJs, FaGithub, FaJava } from "react-icons/fa";
-import { SiMysql, SiExpress, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { FaGithub, FaPython } from "react-icons/fa";
+import { SiMysql, SiDjango, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 
 const Technologies = () => {
   const appear = {
@@ -25,15 +24,13 @@ const Technologies = () => {
       <div className="flex flex-wrap items-center justify-center gap-4">
 
         {[
+          <FaPython className="text-4xl text-yellow-400" />,
+          <SiDjango className="text-4xl text-green-700" />,
+          <SiMysql className="text-4xl text-blue-500" />,
+          <RiReactjsLine className="text-4xl text-cyan-400" />,
           <SiHtml5 className="text-4xl text-orange-600" />,
           <SiCss3 className="text-4xl text-blue-600" />,
           <SiJavascript className="text-4xl text-yellow-400" />,
-          <RiReactjsLine className="text-4xl text-cyan-400" />,
-          <SiExpress className="text-4xl text-gray-300" />,
-          <FaNodeJs className="text-4xl text-green-600" />,
-          <TbBrandMongodb className="text-4xl text-green-500" />,
-          <SiMysql className="text-4xl text-blue-500" />,
-          <FaJava className="text-4xl text-red-600" />,
           <FaGithub className="text-4xl text-white" />
         ].map((icon, index) => (
           <motion.div

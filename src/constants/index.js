@@ -1,49 +1,51 @@
 import project1 from "../assets/projects/project1.jpeg";
 import project2 from "../assets/projects/project2.jpeg";
 import project3 from "../assets/projects/project3.jpeg";
- 
 
+export const HERO_CONTENT = 
+"I am a passionate Python Full Stack Developer specializing in building scalable, secure, and high-performance web applications. I work extensively with Django, Django REST Framework, and MySQL, along with modern front-end technologies like React, HTML, CSS, and JavaScript. With a strong foundation in backend architecture and API development, my goal is to deliver efficient solutions that solve real-world problems and enhance user experience.";
 
-export  const HERO_CONTENT = "I am a passionate MERN Stack Developer with a strong ability to build robust, scalable, and user-centric web applications. I specialize in front-end technologies like React, HTML, CSS, and JavaScript, and back-end development using Node.js, Express.js, and MongoDB. With a focus on clean architecture and performance, my goal is to create innovative solutions that enhance user experience and support business growth."
+export const ABOUT_TEXT = 
+"I am a dedicated Python Full Stack Developer with strong expertise in Django, MySQL, and REST API development. I have built real-world applications focusing on authentication systems, CRUD operations, backend optimization, and secure data handling. I follow clean architecture principles and write maintainable, scalable code for production-ready applications.";
 
-export const ABOUT_TEXT = "I am a dedicated and versatile Full Stack MERN Developer with a strong passion for building efficient, scalable, and user-friendly web applications. Over time, I have gained hands-on experience with technologies such as React, Node.js, Express.js, MongoDB, MySQL, and version control systems like Git and GitHub. What began as a simple curiosity about how digital systems work has grown into a career where I constantly learn, evolve, and take on new challenges with enthusiasm."
-export const ABOUT_TEXT1="I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality, impactful solutions. Beyond coding, I stay active, explore new and emerging technologies, and contribute to open-source projects whenever possible. My goal is to continuously refine my skills while creating meaningful products that improve user experiences and support business growth."
+export const ABOUT_TEXT1 = 
+"I enjoy solving complex backend challenges and designing efficient database structures. Along with backend development, I also work with front-end technologies like React, HTML, CSS, and JavaScript to create complete end-to-end solutions. I continuously learn new technologies and aim to build impactful products that improve user experience and support business growth.";
+
 export const EXPERIENCES = [
-
-
-  " future options"
-]
+  "Python Full Stack Intern – QSpiders Bangalore",
+  "Developed and contributed to real-world web applications using Django and MySQL",
+  "Built REST APIs, implemented authentication systems, and optimized backend performance"
+];
 
 export const PROJECTS = [
   {
-    title: "WonderLust Booking App",
+    title: "Django Travel Booking System",
     image: project1,
     description:
-      "Wonderlust is a travel booking app that allows users to explore destinations, view packages, and make seamless travel reservations.",
-    technologies: ["HTML","tailwindcss","JavaScript", "Node.js","Express.js", "MongoDB"],
-    url:"https://wonderlust-booking-app.onrender.com/listings"
+      "A full-stack travel booking web application built using Django that allows users to explore destinations, register/login securely, and manage bookings with a structured MySQL database.",
+    technologies: ["Python", "Django", "MySQL", "HTML", "CSS", "JavaScript"],
+    url:"https://your-deployment-link.com"
   },
   {
     title: "Portfolio Website",
     image: project2,
     description:
-      "Showcases my skills, projects, and creative work in a modern, interactive, and responsive design. Built to highlight my expertise in web development and UI/UX design.",
-    technologies: ["React.js","tailwindcss","framer-motion"],
+      "A modern and responsive portfolio website built using React and Tailwind CSS to showcase my projects, backend expertise, and technical skills.",
+    technologies: ["React.js","Tailwind CSS","Framer Motion"],
     url:""
   },
   {
-    title: "Authentication App",
+    title: "Django Authentication System",
     image: project3,
     description:
-      "An authentication app that allows users to securely sign up, log in, and reset their password, ensuring safe access to protected resources",
-    technologies: ["React", "Tailwind CSS", "JavaScript"," bcrypt", "JWT", "Node.js", "Express.js", "MongoDB"],
+      "A secure authentication system built using Django and Django REST Framework featuring user registration, login, password reset, JWT authentication, and role-based access control.",
+    technologies: ["Python", "Django", "Django REST Framework", "MySQL", "JWT"],
     url:"https://github.com/govindpatel552006/Auth-app"
   },
-  
 ];
 
 export const CONTACT = {
-  address: " Bhopal,India ",
-  phoneNo: "+91 9301693381 ",
+  address: "Bangalore, India",
+  phoneNo: "+91 9301693381",
   email: "govindpatel2510734@gmail.com",
 };
